@@ -1,9 +1,9 @@
-AOSP+RRO MarshMallow
+MerkMod
 ===========
 
-To initialize your local repository using the AOSP-RRO trees, use a command like this:
+To initialize your local repository using the MerkMod trees, use a command like this:
 ````bash
-repo init -u git://github.com/AOSP-RRO/manifest.git -b marshmallow
+repo init -u git://github.com/merkmod/manifest.git -b merk-3.0
 ```
 Then to sync up:
 ````bash
@@ -12,9 +12,4 @@ repo sync
 Finally to build:
 ````bash
 ./build.sh device_codename
-```
-Example:
-````bash
-./build.sh falcon
-./build.sh titan
 ```
